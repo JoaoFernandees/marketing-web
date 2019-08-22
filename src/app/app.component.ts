@@ -14,11 +14,6 @@ export class AppComponent {
       label: 'Home', 
       icon: 'po-icon-home',
       link: '/home' 
-    },
-    {
-      action: null,
-      label: 'Teste',
-      link: '/teste'
     }
   ]
 }
