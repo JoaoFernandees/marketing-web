@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { PoMenuItem } from '@portinari/portinari-ui';
+import { PoMenuItem, PoNotificationService, PoToolbarAction, PoDialogService, PoToolbarProfile } from '@portinari/portinari-ui';
 
 @Component({
   selector: 'app-root',
@@ -8,12 +8,5 @@ import { PoMenuItem } from '@portinari/portinari-ui';
 })
 export class AppComponent {
 
-  menuItems = [
-    { 
-      action: null,
-      label: 'Home', 
-      icon: 'po-icon-home',
-      link: '/home' 
-    }
-  ]
+  ngOnInit() {}
 }
